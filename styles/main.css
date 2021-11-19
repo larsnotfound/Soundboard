@@ -33,6 +33,10 @@ mark {
     transition: transform .5s ease; 
 }
 
+tegel:active {
+    color: red;
+}
+
 #image {
     display: block;
     width: 100%;
@@ -58,7 +62,7 @@ mark {
 
 #playbutton {
     background-color: transparent;
-    border-radius: 50%;
+    color: white;
     width: 20%;
     height: auto;
     z-index: 1000;
