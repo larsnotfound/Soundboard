@@ -74,7 +74,7 @@ mark {
 
 @media only screen and (max-width: 600px) {
     .tegel {
-      width: 400px;
-      margin: 40px;
+      width: 100%;
+      margin-bottom: 20px;
     }
   }
