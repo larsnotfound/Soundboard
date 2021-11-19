@@ -19,7 +19,8 @@ mark {
 }
 
 .tegel {
-    width: 500px;
+    width: 350px;
+    height: auto;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -70,3 +71,10 @@ mark {
     gap: 40px;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 600px) {
+    .tegel {
+      width: 400px;
+      margin: 40px;
+    }
+  }
